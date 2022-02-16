@@ -1,8 +1,26 @@
 {
+  "name": "venky",
+  "version": "1.0.0",
+  "description": "crud app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkateshjnv123/node.git"
+  },
+  "author": "venkatesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venkateshjnv123/node/issues"
+  },
+  "homepage": "https://github.com/venkateshjnv123/node#readme",
   "dependencies": {
     "express": "^4.17.1",
     "mongodb": "^4.2.1",
-    "mongoose": "^6.1.1"
+    "mongoose": "^6.1.1",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
